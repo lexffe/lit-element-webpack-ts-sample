@@ -1,6 +1,6 @@
 {
   "name": "lit-element-webpack-ts-sample",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lit-element typescript boilerplate, packed with webpack",
   "main": "dist/bundle.js",
   "scripts": {
@@ -8,22 +8,22 @@
     "test": "npm run build && node serve.js",
     "dev": "webpack-dev-server"
   },
-  "author": "zrwx480",
+  "author": "lexffe",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^11.9.5",
+    "@types/node": "^12.12.17",
     "awesome-typescript-loader": "^5.2.1",
-    "express": "^4.16.4",
-    "tslib": "^1.9.3",
-    "tslint": "^5.13.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.3.3333",
-    "typescript-tslint-plugin": "^0.3.1",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "express": "^4.17.1",
+    "tslib": "^1.10.0",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.3",
+    "typescript-tslint-plugin": "^0.5.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "lit-element": "^2.0.1"
+    "lit-element": "^2.2.1"
   }
 }
